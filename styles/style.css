@@ -91,7 +91,7 @@ nav {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    gap: 50px;
+    gap: 130px;
 }
 
 .services-list {
@@ -187,7 +187,7 @@ nav {
 }
 
 /* CONSULTATION SECTION  */
-.consultation-container{
+.consultation-container {
     width: 80%;
     background-color: #F52C2C;
     margin: 0 auto;
@@ -198,34 +198,86 @@ nav {
     padding: 20px;
     margin-top: -75px;
 }
-.consultation-number{
+
+.consultation-number {
     display: flex;
     align-items: center;
     gap: 20px;
     padding-right: 40px;
     border-right: 2px solid grey;
 }
-.consultation-number p{
+
+.consultation-number p {
     color: white;
 }
-.consultation-number h2{
+
+.consultation-number h2 {
     color: white;
     font-size: 2.2rem;
 }
-.consultation-number-icon img{
+
+.consultation-number-icon img {
     width: 100px;
 }
-.consultation-text p{
+
+.consultation-text p {
     color: white;
     padding-right: 40px;
 }
-.consultation-button button{
+
+.consultation-button button {
     padding: 20px 30px;
     background-color: white;
-    border:none;
+    border: none;
     border-radius: 30px;
     background-color: rgb(235, 233, 233);
     cursor: pointer;
     margin-right: 20px;
+}
 
+/* BLOG SECTION  */
+.blog-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-text {
+    text-align: center;
+}
+
+.blog-text h1 {
+    font-size: 3.2rem;
+}
+
+.blog-text p {
+    font-size: 1.4rem;
+}
+
+.blog-boxes {
+    display: flex;
+    gap: 30px;
+}
+
+.blogbox {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px rgb(173, 170, 170);
+}
+
+.blogbox img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blogbox h3 {
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.blogbox p {
+    font-size: 1.1rem;
+    padding: 0px 20px 30px 20px;
 }
