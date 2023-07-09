@@ -130,13 +130,15 @@ nav {
     color: rgb(221, 212, 212);
 
 }
-.author{
+
+.author {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
 }
-.author-details{
+
+.author-details {
     display: flex;
     /* justify-content: ; */
     align-items: center;
@@ -144,25 +146,31 @@ nav {
     width: 50%;
     border-right: 1px solid #F52C2C;
 }
-.author-details img{
+
+.author-details img {
     width: 75px;
     border-radius: 50%;
 }
-.author-details h5{
-    color:white;
+
+.author-details h5 {
+    color: white;
     font-size: 1rem;
 }
-.author-button{
+
+.author-button {
     padding-right: 20px;
 }
-.services-boxes{
+
+.services-boxes {
     display: flex;
     gap: 10px;
     padding-top: 10px;
+    margin-bottom: 100px;
 }
-.box{
-    width: 300px;
-    height: 300px;
+
+.box {
+    width: 250px;
+    height: 250px;
     background-color: white;
     text-align: center;
     display: flex;
@@ -172,7 +180,52 @@ nav {
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.box img{
+
+.box img {
     width: 100px;
     margin-bottom: 10px;
+}
+
+/* CONSULTATION SECTION  */
+.consultation-container{
+    width: 80%;
+    background-color: #F52C2C;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: -75px;
+}
+.consultation-number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 40px;
+    border-right: 2px solid grey;
+}
+.consultation-number p{
+    color: white;
+}
+.consultation-number h2{
+    color: white;
+    font-size: 2.2rem;
+}
+.consultation-number-icon img{
+    width: 100px;
+}
+.consultation-text p{
+    color: white;
+    padding-right: 40px;
+}
+.consultation-button button{
+    padding: 20px 30px;
+    background-color: white;
+    border:none;
+    border-radius: 30px;
+    background-color: rgb(235, 233, 233);
+    cursor: pointer;
+    margin-right: 20px;
+
 }
